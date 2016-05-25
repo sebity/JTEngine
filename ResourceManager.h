@@ -9,7 +9,7 @@
 #define RESOURCEMANAGER_H_
 
 #include <string>
-#include "../JTEngine/TextureCache.h"
+#include "TextureCache.h"
 
 class ResourceManager {
 public:

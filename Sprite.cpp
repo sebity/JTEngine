@@ -5,11 +5,11 @@
  *      Author: jan
  */
 
-#include "../JTEngine/Sprite.h"
-
 #include <cstddef>
-#include "../JTEngine/ResourceManager.h"
-#include "../JTEngine/Vertex.h"
+
+#include "Sprite.h"
+#include "ResourceManager.h"
+#include "Vertex.h"
 
 Sprite::Sprite() : _x(0), _y(0), _width(0), _height(0), _vboID(0) {
 

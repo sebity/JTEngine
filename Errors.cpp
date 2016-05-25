@@ -1,8 +1,8 @@
-#include "../JTEngine/Errors.h"
-
 #include <cstdlib>
 #include <iostream>
 #include <SDL2/SDL.h>
+
+#include "Errors.h"
 
 // Prints out an error message and exits the game.
 //

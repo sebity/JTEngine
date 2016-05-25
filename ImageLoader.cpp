@@ -5,11 +5,10 @@
  *      Author: jan
  */
 
-#include "../JTEngine/ImageLoader.h"
-
-#include "../JTEngine/Errors.h"
-#include "../JTEngine/IOManager.h"
-#include "../JTEngine/picoPNG.h"
+#include "ImageLoader.h"
+#include "Errors.h"
+#include "IOManager.h"
+#include "picoPNG.h"
 
 GLTexture ImageLoader::loadPNG(std::string filePath) {
 	GLTexture texture = {};

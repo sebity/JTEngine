@@ -5,10 +5,9 @@
  *      Author: jan
  */
 
-#include "../JTEngine/IOManager.h"
-
 #include <fstream>
 
+#include "IOManager.h"
 
 bool IOManager::readFileToBuffer(std::string filePath, std::vector<unsigned char>& buffer) {
 	std::ifstream file(filePath, std::ios::binary);

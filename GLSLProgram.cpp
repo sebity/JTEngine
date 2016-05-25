@@ -5,11 +5,11 @@
  *      Author: jan
  */
 
-#include "../JTEngine/GLSLProgram.h"
-
 #include <fstream>
 #include <vector>
-#include "../JTEngine/Errors.h"
+
+#include "GLSLProgram.h"
+#include "Errors.h"
 
 GLSLProgram::GLSLProgram() : _numAttributes(0), _programID(0), _vertexShaderID(0), _fragmentShaderID(0) {
 

@@ -9,7 +9,7 @@
 #define IMAGELOADER_H_
 
 #include <string>
-#include "../JTEngine/GLTexture.h"
+#include "GLTexture.h"
 
 
 class ImageLoader {

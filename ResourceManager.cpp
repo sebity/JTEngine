@@ -5,7 +5,7 @@
  *      Author: jan
  */
 
-#include "../JTEngine/ResourceManager.h"
+#include "ResourceManager.h"
 
 TextureCache ResourceManager::_textureCache;
 

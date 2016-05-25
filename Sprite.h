@@ -10,7 +10,8 @@
 
 #include <GL/glew.h>
 #include <string>
-#include "../JTEngine/GLTexture.h"
+
+#include "GLTexture.h"
 
 class Sprite {
 public:

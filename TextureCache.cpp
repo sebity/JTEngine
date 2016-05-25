@@ -5,10 +5,10 @@
  *      Author: jan
  */
 
-#include "../JTEngine/TextureCache.h"
-
 #include <iostream>
-#include "../JTEngine/ImageLoader.h"
+
+#include "TextureCache.h"
+#include "ImageLoader.h"
 
 TextureCache::TextureCache() {
 	// TODO Auto-generated constructor stub

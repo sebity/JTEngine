@@ -10,7 +10,7 @@
 
 #include <map>
 
-#include "../JTEngine/GLTexture.h"
+#include "GLTexture.h"
 
 class TextureCache {
 public:
