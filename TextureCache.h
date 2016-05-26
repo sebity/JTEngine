@@ -12,6 +12,8 @@
 
 #include "GLTexture.h"
 
+namespace JTEngine {
+
 class TextureCache {
 public:
 	TextureCache();
@@ -22,5 +24,7 @@ public:
 private:
 	std::map<std::string, GLTexture> _textureMap;
 };
+
+} /* namespace JTEngine */
 
 #endif /* TEXTURECACHE_H_ */

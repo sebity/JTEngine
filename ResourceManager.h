@@ -11,6 +11,8 @@
 #include <string>
 #include "TextureCache.h"
 
+namespace JTEngine {
+
 class ResourceManager {
 public:
 	static GLTexture getTexture(std::string texturePath);
@@ -18,5 +20,7 @@ public:
 private:
 	static TextureCache _textureCache;
 };
+
+} /* namespace JTEngine */
 
 #endif /* RESOURCEMANAGER_H_ */

@@ -11,6 +11,8 @@
 #include "GLSLProgram.h"
 #include "Errors.h"
 
+namespace JTEngine {
+
 GLSLProgram::GLSLProgram() : _numAttributes(0), _programID(0), _vertexShaderID(0), _fragmentShaderID(0) {
 
 }
@@ -167,4 +169,4 @@ void GLSLProgram::linkShaders() {
 	glDeleteShader(_fragmentShaderID);
 }
 
-
+} /* namespace JTEngine */

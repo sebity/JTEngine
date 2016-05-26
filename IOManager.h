@@ -11,9 +11,13 @@
 #include <vector>
 #include <string>
 
+namespace JTEngine {
+
 class IOManager {
 public:
 	static bool readFileToBuffer(std::string filePath, std::vector<unsigned char>& buffer);
 };
+
+} /* namespace JTEngine */
 
 #endif /* IOMANAGER_H_ */

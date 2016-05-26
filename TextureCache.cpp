@@ -10,6 +10,8 @@
 #include "TextureCache.h"
 #include "ImageLoader.h"
 
+namespace JTEngine {
+
 TextureCache::TextureCache() {
 	// TODO Auto-generated constructor stub
 
@@ -41,3 +43,5 @@ GLTexture TextureCache::getTexture(std::string texturePath) {
 
 	return mit->second;
 }
+
+} /* namespace JTEngine */

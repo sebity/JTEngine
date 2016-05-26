@@ -11,6 +11,8 @@
 #include "ResourceManager.h"
 #include "Vertex.h"
 
+namespace JTEngine {
+
 Sprite::Sprite() : _x(0), _y(0), _width(0), _height(0), _vboID(0) {
 
 }
@@ -97,3 +99,5 @@ void Sprite::draw() {
 
 	glBindBuffer(GL_ARRAY_BUFFER, 0);
 }
+
+} /* namespace JTEngine */

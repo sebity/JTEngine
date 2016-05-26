@@ -10,11 +10,14 @@
 
 #include <GL/glew.h>
 
+namespace JTEngine {
+
 struct GLTexture {
 	GLuint id;
 	int width;
 	int height;
 };
 
+} /* namespace JTEngine */
 
 #endif /* GLTEXTURE_H_ */

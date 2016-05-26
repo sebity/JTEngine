@@ -9,6 +9,8 @@
 
 #include "IOManager.h"
 
+namespace JTEngine {
+
 bool IOManager::readFileToBuffer(std::string filePath, std::vector<unsigned char>& buffer) {
 	std::ifstream file(filePath, std::ios::binary);
 	if(file.fail()) {
@@ -33,3 +35,5 @@ bool IOManager::readFileToBuffer(std::string filePath, std::vector<unsigned char
 
 	return true;
 }
+
+} /* namespace JTEngine */

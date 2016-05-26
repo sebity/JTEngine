@@ -10,6 +10,8 @@
 #include "IOManager.h"
 #include "picoPNG.h"
 
+namespace JTEngine {
+
 GLTexture ImageLoader::loadPNG(std::string filePath) {
 	GLTexture texture = {};
 
@@ -46,3 +48,5 @@ GLTexture ImageLoader::loadPNG(std::string filePath) {
 
 	return texture;
 }
+
+} /* namespace JTEngine */

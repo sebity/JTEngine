@@ -11,6 +11,8 @@
 #include <string>
 #include <GL/glew.h>
 
+namespace JTEngine {
+
 class GLSLProgram {
 public:
 	GLSLProgram();
@@ -37,5 +39,7 @@ private:
 	GLuint _vertexShaderID;
 	GLuint _fragmentShaderID;
 };
+
+} /* namespace JTEngine */
 
 #endif /* GLSLPROGRAM_H_ */

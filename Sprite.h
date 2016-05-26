@@ -13,6 +13,8 @@
 
 #include "GLTexture.h"
 
+namespace JTEngine {
+
 class Sprite {
 public:
 	Sprite();
@@ -30,5 +32,7 @@ private:
 	GLuint _vboID;
 	GLTexture _texture;
 };
+
+} /* namespace JTEngine */
 
 #endif /* SPRITE_H_ */

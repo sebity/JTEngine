@@ -4,6 +4,8 @@
 
 #include "Errors.h"
 
+namespace JTEngine {
+
 // Prints out an error message and exits the game.
 //
 void fatalError(std::string errorString) {
@@ -14,3 +16,5 @@ void fatalError(std::string errorString) {
 	SDL_Quit();
 	exit(1);
 }
+
+} /* namespace JTEngine */
